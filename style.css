@@ -1,0 +1,40 @@
+.img-container {
+    position: relative;
+    display: inline-block;
+    height: ;/* Keeps the image size intact */
+  }
+  
+  .img-container img {
+    width: 100%; /* Adjust based on need */
+    height: auto; /* Ensures the image remains in-scope */
+  }
+  
+  .img-text {
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    transform: translate(-20%, -30%); /* Centers the text */
+    color: rgb(232, 193, 19);
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .navtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(232, 94, 19);
+  }
+
+  .menu {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(232, 94, 19);
+    font-family:cursive;
+  }
+
+  a{
+    text-decoration: none;
+  }
